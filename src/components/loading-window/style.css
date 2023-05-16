@@ -1,0 +1,18 @@
+.loading_spinner_center {
+  display: absolute;
+  transform: translate(50%, 50%);
+  margin-top: 25%;
+  margin-right: 5%;
+}
+
+.error_page_background {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 30;
+  background: #333;
+  z-index: 150;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.6;
+}

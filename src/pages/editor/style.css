@@ -1,0 +1,32 @@
+.editor-wrapper-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.editor-wrapper {
+  padding: 0.5rem;
+  width: 100%;
+  min-width: 50%;
+  color: #333;
+  font-size: 15px;
+  font-family: "Segoe UI", "HelveticaNeue-Light", sans-serif;
+}
+
+.main-editor-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  justify-content: start;
+}
+
+.optionControlBtn {
+  cursor: pointer;
+  margin-left: 1em;
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap");
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #424d5c;
+}
+
+.message-feed {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.time-send {
+  padding: 0.3rem;
+  padding-left: 0;
+  font-size: 0.65rem;
+}
+
+.message {
+  margin-left: 10px;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  border-radius: 5px;
+  max-width: 50%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.response-container {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+
+.message.me {
+  background-color: #d0e1f9;
+  align-self: flex-end;
+}
+
+.message.sender {
+  background-color: #f5f5f5;
+}
+
+.message p {
+  margin: 0;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #606b7b;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.message-input button {
+  height: 100%;
+  background-color: #657288;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Sono", sans-serif;
+  font-weight: 300;
+}
